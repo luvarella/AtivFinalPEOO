@@ -1,0 +1,16 @@
+﻿<Window x:Class="atividadeclinica.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:atividadeclinica"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="300">
+    <Grid>
+        <Button Content="Cadastro de Médico" HorizontalAlignment="Left" Margin="158,48,0,0" VerticalAlignment="Top" Click="Medico_Click"/>
+        <Button Content="Cadastro de Paciente" HorizontalAlignment="Left" Margin="10,48,0,0" VerticalAlignment="Top" Click="Paciente_Click"/>
+        <Button Content="Marcar Consulta" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Click="Consulta_Click"/>
+        <Button Content="Agenda de Consulta " HorizontalAlignment="Left" Margin="158,73,0,0" VerticalAlignment="Top" Click="Agenda_Click" RenderTransformOrigin="0.526,1.667"/>
+    </Grid>
+</Window>
+

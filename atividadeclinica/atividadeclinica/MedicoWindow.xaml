@@ -1,0 +1,33 @@
+﻿<Window x:Class="atividadeclinica.MedicoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:atividadeclinica"
+        mc:Ignorable="d"
+        Title="MedicoWindow" Height="450" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="10,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Id"/><Run Language="pt-br" Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="5,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"><Run Text="Nome"/><Run Language="pt-br" Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33"><Run Text="Idade"/><Run Language="pt-br" Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="E-mail"/><Run Language="pt-br" Text=":"/></TextBlock>
+        <TextBox Name="txtId" HorizontalAlignment="Left" Margin="10,60,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBox Name="txtNome" HorizontalAlignment="Left" Margin="5,60,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Grid.Column="1"/>
+        <TextBox Name="txtIdade" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Margin="10,104,0,0"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top" Width="68" Height="18" Grid.ColumnSpan="2"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="122,190,0,0" VerticalAlignment="Top" Width="93" Grid.Column="1"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="122,218,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="177,218,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <ListBox Name="listPacientes" Margin="10,243,10,10" SelectionChanged="listAlunos_SelectionChanged" Grid.ColumnSpan="2" />
+        <TextBox Name="txtCpf" HorizontalAlignment="Left" Margin="5,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="5,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Grid.Column="1"><Run Text="C"/><Run Language="pt-br" Text="PF"/><Run Text=":"/></TextBlock>
+        <TextBox Name="txtEmail" HorizontalAlignment="Left" Margin="10,148,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2"><Run Text="Preench"/><Run Language="pt-br" Text="a"/><Run Text=" com"/><Run Text=" "/><Run Text="seus dados:"/></TextBlock>
+        <TextBox x:Name="txtEspecializacao" HorizontalAlignment="Left" Margin="10,192,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="88"><Run Text="Especialização"/><Run Language="pt-br" Text=":"/></TextBlock>
+    </Grid>
+</Window>

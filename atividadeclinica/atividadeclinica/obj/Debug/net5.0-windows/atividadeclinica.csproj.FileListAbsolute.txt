@@ -1,0 +1,9 @@
+C:\Users\20211011110004\source\repos\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\atividadeclinica.csproj.AssemblyReference.cache
+C:\Users\20211011110004\source\repos\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\AgendaWindow.g.cs
+C:\Users\20211011110004\source\repos\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\ConsultaWindow.g.cs
+C:\Users\20211011110004\source\repos\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\20211011110004\source\repos\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\MedicoWindow.g.cs
+C:\Users\20211011110004\source\repos\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\PacienteWindow.g.cs
+C:\Users\20211011110004\source\repos\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\20211011110004\source\repos\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\atividadeclinica_MarkupCompile.cache
+C:\Users\20211011110004\source\repos\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\atividadeclinica_MarkupCompile.lref

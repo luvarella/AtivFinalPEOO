@@ -1,0 +1,34 @@
+﻿<Window x:Class="atividadeclinica.ConsultaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:atividadeclinica"
+        mc:Ignorable="d"
+        Title="Marcar Consulta" Height="450" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="73*"/>
+            <RowDefinition Height="54*"/>
+        </Grid.RowDefinitions>
+        <ListBox Name="listPacientes" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,139,0,0" Width="380" Height="90" Grid.RowSpan="2"/>
+        <ListBox Name="listMedicos" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,31,0,0" Width="370" Height="119" Grid.Row="1"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Button Click="AgendarClick" Content="Agendar" HorizontalAlignment="Left" Margin="10,155,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Preench"/><Run Text="a"/><Run Text=" com"/><Run Text=" "/><Run Language="pt-br" Text="os"/><Run Text=" dados:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Id"/><Run Text=":"/></TextBlock>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="10,52,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="49"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Data"/><Run Text=":"/></TextBlock>
+        <TextBox x:Name="txtData" HorizontalAlignment="Left" Margin="10,91,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="49"/>
+        <TextBlock HorizontalAlignment="Left" Margin="74,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Hora"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="169,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Local"/><Run Language="pt-br" Text=":"/></TextBlock>
+        <TextBox x:Name="txtHora" HorizontalAlignment="Left" Margin="74,91,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
+        <TextBox x:Name="txtLocal" HorizontalAlignment="Left" Margin="169,91,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
+        <TextBlock HorizontalAlignment="Left" Margin="74,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Descrição"/><Run Text=":"/></TextBlock>
+        <TextBox x:Name="txtIdMedico_Copy" HorizontalAlignment="Left" Margin="74,52,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="263,91,0,0" VerticalAlignment="Top" Width="56" Height="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"><Run Text="Selecion"/><Run Text="e"/><Run Text=" o paciente:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" Grid.Row="1"><Run Text="Selecion"/><Run Text="e"/><Run Text=" o "/><Run Language="pt-br" Text="médico"/><Run Text=":"/></TextBlock>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="324,91,0,0" VerticalAlignment="Top" Width="66" Height="18"/>
+    </Grid>
+</Window>
