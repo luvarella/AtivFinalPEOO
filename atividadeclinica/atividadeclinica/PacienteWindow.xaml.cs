@@ -102,5 +102,10 @@ namespace atividadeclinica
                 txtCidade.Text = obj.Cidade;
             }
         }
+
+        private void listAlunos_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

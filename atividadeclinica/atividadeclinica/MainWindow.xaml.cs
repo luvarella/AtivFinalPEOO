@@ -25,30 +25,34 @@ namespace atividadeclinica
             InitializeComponent();
         }
 
-        private void Turma_Click(object sender, RoutedEventArgs e)
-        {
-            TurmaWindow w = new TurmaWindow();
-            w.ShowDialog();
-        }
-        private void Aluno_Click(object sender, RoutedEventArgs e)
-        {
-            AlunoWindow w = new AlunoWindow();
-            w.ShowDialog();
-        }
-        private void Matricular_Click(object sender, RoutedEventArgs e)
-        {
-            MatriculaWindow w = new MatriculaWindow();
-            w.ShowDialog();
-        }
-        private void Diario_Click(object sender, RoutedEventArgs e)
-        {
-            DiarioWindow w = new DiarioWindow();
-            w.ShowDialog();
-        }
-
         private void Consulta_Click(object sender, RoutedEventArgs e)
         {
+            ConsultaWindow c = new ConsultaWindow();
+            c.ShowDialog();
+        }
 
+        private void Medico_Click(object sender, RoutedEventArgs e)
+        {
+            MedicoWindow c = new MedicoWindow();
+            c.ShowDialog();
+        }
+
+        private void Paciente_Click(object sender, RoutedEventArgs e)
+        {
+            PacienteWindow c = new PacienteWindow();
+            c.ShowDialog();
+        }
+
+        private void AgendaMed_Click(object sender, RoutedEventArgs e)
+        {
+            AgendaMedWindow c = new AgendaMedWindow();
+            c.ShowDialog();
+        }
+
+        private void AgendaPac_Click(object sender, RoutedEventArgs e)
+        {
+            AgendaPacWindow c = new AgendaPacWindow();
+            c.ShowDialog();
         }
     }
 }

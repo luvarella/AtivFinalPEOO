@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\20211011110004\source\repos\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\
+C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\
 atividadeclinica
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\20211011110004\source\repos\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\App.xaml
-51479025588
+C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\App.xaml
+664871891
 
-15-2041700814
+16609057566
 193-1891726104
-AgendaWindow.xaml;ConsultaWindow.xaml;MainWindow.xaml;MedicoWindow.xaml;PacienteWindow.xaml;
+AgendaMedWindow.xaml;AgendaPacWindow.xaml;ConsultaWindow.xaml;MainWindow.xaml;MedicoWindow.xaml;PacienteWindow.xaml;
 
-False
+True
 

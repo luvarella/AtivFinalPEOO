@@ -34,16 +34,17 @@ namespace atividadeclinica
 
         private void AgendarClick(object sender, RoutedEventArgs e)
         {
-            if (listMedicos.SelectedItem != null &&
-                listMedicos.SelectedItem != null)
-            {
-                Medico m = (Medico)listMedicos.SelectedItem;
-                Paciente p = (Paciente)listPacientes.SelectedItem;
-                NConsulta.Agendar(p, m);
-                ListarClick(sender, e);
-            }
-            else
-                MessageBox.Show("Selecione um médico e um paciente");
+            
+        }
+
+        private void InserirClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void AtualizarClick(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -11,7 +11,7 @@ namespace atividadeclinica
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Idade { get; set; }
-        public int Cpf { get; set; }
+        public string Cpf { get; set; }
         public string Email { get; set; }
         public string Especializacao { get; set; }
         public override string ToString()

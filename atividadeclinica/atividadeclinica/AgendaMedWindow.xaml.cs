@@ -15,13 +15,18 @@ using System.Windows.Shapes;
 namespace atividadeclinica
 {
     /// <summary>
-    /// Lógica interna para AgendaWindow.xaml
+    /// Lógica interna para AgendaMedWindow.xaml
     /// </summary>
-    public partial class AgendaWindow : Window
+    public partial class AgendaMedWindow : Window
     {
-        public AgendaWindow()
+        public AgendaMedWindow()
         {
             InitializeComponent();
+        }
+
+        private void ListarClick(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

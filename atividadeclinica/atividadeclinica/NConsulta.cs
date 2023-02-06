@@ -14,7 +14,6 @@ namespace atividadeclinica
         public static void Inserir(Consulta t)
         {
             Abrir();
-            // Procurar o maior Id
             int id = 0;
             foreach (Consulta obj in consultas)
                 if (obj.Id > id) id = obj.Id;
@@ -25,7 +24,6 @@ namespace atividadeclinica
         public static void Atualizar(Consulta c)
         {
             Abrir();
-            // Percorrer a lista de turma procurando o id informado (t.Id)
             foreach (Consulta obj in consultas)
                 if (obj.Id == c.Id)
                 {
@@ -39,7 +37,6 @@ namespace atividadeclinica
         public static void Excluir(Consulta c)
         {
             Abrir();
-            // Percorrer a lista de turma procurando o id informado (t.Id)
             Consulta x = null;
             foreach (Consulta obj in consultas)
                 if (obj.Id == c.Id) x = obj;
@@ -50,11 +47,6 @@ namespace atividadeclinica
         {
             Abrir();
             return consultas;
-        }
-        public static void Agendar(Paciente p, Medico m)
-        {
-            p.IdMedico = m.Id;
-            Atualizar(p);
         }
         public static void Abrir()
         {
@@ -77,6 +69,39 @@ namespace atividadeclinica
             StreamWriter f = new StreamWriter("./consultas.xml", false);
             xml.Serialize(f, consultas);
             f.Close();
+        }
+        public static void MarcarConsulta(Medico m, Paciente p, Consulta c)
+        {
+            Abrir();
+            c.IdMedico = m.Id;
+            c.IdPaciente = p.Id;
+            Salvar();
+        }
+        public static List<Consulta> Listar(Medico m)
+        {
+            Abrir();
+            List<Consulta> listConsultas = new List<Consulta>();
+            foreach (Consulta c in consultas)
+            {
+                if (c.IdMedico == m.Id)
+                {
+                    listConsultas.Add(c);
+                }
+            }
+            return listConsultas;
+        }
+        public static List<Consulta> Listar(Paciente p)
+        {
+            Abrir();
+            List<Consulta> listConsultas = new List<Consulta>();
+            foreach (Consulta c in consultas)
+            {
+                if (c.IdPaciente == p.Id)
+                {
+                    listConsultas.Add(c);
+                }
+            }
+            return listConsultas;
         }
     }
 

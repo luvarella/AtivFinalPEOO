@@ -15,10 +15,9 @@ namespace atividadeclinica
         public string Idade { get; set; }
         public string Estado { get; set; }
         public string Cidade { get; set; }
-        public int IdMedico { get; set; }
         public override string ToString()
         {
-            return $"{Id} - {Nome} - {Cpf} - {Idade} - {Estado} - {Cidade} {Email} - Médico: {IdMedico}";
+            return $"{Id} - {Nome} - {Cpf} - {Idade} - {Estado} - {Cidade} - {Email}";
         }
     }
 }

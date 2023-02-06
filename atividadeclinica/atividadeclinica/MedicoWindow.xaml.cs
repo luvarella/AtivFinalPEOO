@@ -97,5 +97,10 @@ namespace atividadeclinica
                 txtEspecializacao.Text = obj.Especializacao;
             }
         }
+
+        private void listAlunos_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

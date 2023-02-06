@@ -14,7 +14,6 @@ namespace atividadeclinica
         public static void Inserir(Medico t)
         {
             Abrir();
-            // Procurar o maior Id
             int id = 0;
             foreach (Medico obj in medicos)
                 if (obj.Id > id) id = obj.Id;
@@ -59,6 +58,7 @@ namespace atividadeclinica
                 f = new StreamReader("./medicos.xml");
                 medicos = (List<Medico>)xml.Deserialize(f);
             }
+            catch
             {
                 medicos = new List<Medico>();
             }
@@ -70,6 +70,17 @@ namespace atividadeclinica
             StreamWriter f = new StreamWriter("./medicos.xml", false);
             xml.Serialize(f, medicos);
             f.Close();
+        }
+        public static Medico Listar(int me)
+        {
+            foreach (Medico m in medicos)
+            {
+                if(m.Id == me)
+                {
+                    return m;
+                }
+            }
+            return null;
         }
 
     }

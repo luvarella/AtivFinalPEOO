@@ -9,8 +9,9 @@
     <Grid>
         <Button Content="Cadastro de Médico" HorizontalAlignment="Left" Margin="158,48,0,0" VerticalAlignment="Top" Click="Medico_Click"/>
         <Button Content="Cadastro de Paciente" HorizontalAlignment="Left" Margin="10,48,0,0" VerticalAlignment="Top" Click="Paciente_Click"/>
-        <Button Content="Marcar Consulta" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Click="Consulta_Click"/>
-        <Button Content="Agenda de Consulta " HorizontalAlignment="Left" Margin="158,73,0,0" VerticalAlignment="Top" Click="Agenda_Click" RenderTransformOrigin="0.526,1.667"/>
+        <Button Content="Marcar Consulta" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" Click="Consulta_Click" Width="115"/>
+        <Button Content="Agenda do Médico " HorizontalAlignment="Left" Margin="158,72,0,0" VerticalAlignment="Top" Click="AgendaMed_Click" RenderTransformOrigin="0.526,1.667" Width="111"/>
+        <Button Content="Agenda do Paciente " HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Click="AgendaPac_Click" RenderTransformOrigin="0.526,1.667" Width="115"/>
     </Grid>
 </Window>
 

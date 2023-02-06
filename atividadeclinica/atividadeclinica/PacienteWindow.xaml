@@ -17,7 +17,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="10,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="E-mail"/><Run Language="pt-br" Text=":"/></TextBlock>
         <TextBox Name="txtId" HorizontalAlignment="Left" Margin="10,85,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
         <TextBox Name="txtNome" HorizontalAlignment="Left" Margin="10,129,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Grid.ColumnSpan="2"/>
-        <TextBox Name="txtIdade" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Margin="10,217,0,0" TextChanged="txtIdade_TextChanged"/>
+        <TextBox Name="txtIdade" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Margin="10,217,0,0"/>
         <TextBox Name="txtEstado" HorizontalAlignment="Left" Margin="10,261,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Grid.ColumnSpan="2"/>
         <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="10,374,0,0" VerticalAlignment="Top" Width="50"/>
         <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="95,33,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1"/>

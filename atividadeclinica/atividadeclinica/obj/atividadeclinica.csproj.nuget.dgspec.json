@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\20211011110004\\source\\repos\\oficialatividadefinalpeoo\\atividadeclinica\\atividadeclinica\\atividadeclinica.csproj": {}
+    "C:\\Users\\20211011110004\\Source\\Repos\\luvarella\\oficialatividadefinalpeoo\\atividadeclinica\\atividadeclinica\\atividadeclinica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\20211011110004\\source\\repos\\oficialatividadefinalpeoo\\atividadeclinica\\atividadeclinica\\atividadeclinica.csproj": {
+    "C:\\Users\\20211011110004\\Source\\Repos\\luvarella\\oficialatividadefinalpeoo\\atividadeclinica\\atividadeclinica\\atividadeclinica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20211011110004\\source\\repos\\oficialatividadefinalpeoo\\atividadeclinica\\atividadeclinica\\atividadeclinica.csproj",
+        "projectUniqueName": "C:\\Users\\20211011110004\\Source\\Repos\\luvarella\\oficialatividadefinalpeoo\\atividadeclinica\\atividadeclinica\\atividadeclinica.csproj",
         "projectName": "atividadeclinica",
-        "projectPath": "C:\\Users\\20211011110004\\source\\repos\\oficialatividadefinalpeoo\\atividadeclinica\\atividadeclinica\\atividadeclinica.csproj",
+        "projectPath": "C:\\Users\\20211011110004\\Source\\Repos\\luvarella\\oficialatividadefinalpeoo\\atividadeclinica\\atividadeclinica\\atividadeclinica.csproj",
         "packagesPath": "C:\\Users\\20211011110004\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20211011110004\\source\\repos\\oficialatividadefinalpeoo\\atividadeclinica\\atividadeclinica\\obj\\",
+        "outputPath": "C:\\Users\\20211011110004\\Source\\Repos\\luvarella\\oficialatividadefinalpeoo\\atividadeclinica\\atividadeclinica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20211011110004\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
         }
       }
     }

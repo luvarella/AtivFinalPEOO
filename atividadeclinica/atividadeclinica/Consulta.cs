@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace atividadeclinica
 {
-    class Consulta
+    public class Consulta
     {
           
         public int Id { get; set; }
@@ -14,8 +14,8 @@ namespace atividadeclinica
         public int IdPaciente { get; set; }
         public string Data { get; set; }
         public string Hora { get; set; }
-        public int Local { get; set; }
-        public int Descricao { get; set; }
+        public string Local { get; set; }
+        public string Descricao { get; set; }
         public override string ToString()
         {
             return $"{Id} - Paciente: {IdPaciente} - Médico: {IdMedico} - {Data} - {Hora} - {Local}- {Descricao}";

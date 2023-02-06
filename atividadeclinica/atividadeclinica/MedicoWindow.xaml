@@ -22,7 +22,7 @@
         <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="122,190,0,0" VerticalAlignment="Top" Width="93" Grid.Column="1"/>
         <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="122,218,0,0" VerticalAlignment="Top" Grid.Column="1"/>
         <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="177,218,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <ListBox Name="listPacientes" Margin="10,243,10,10" SelectionChanged="listAlunos_SelectionChanged" Grid.ColumnSpan="2" />
+        <ListBox Name="listMedicos" Margin="10,243,10,10" SelectionChanged="listAlunos_SelectionChanged" Grid.ColumnSpan="2" />
         <TextBox Name="txtCpf" HorizontalAlignment="Left" Margin="5,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Grid.Column="1"/>
         <TextBlock HorizontalAlignment="Left" Margin="5,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Grid.Column="1"><Run Text="C"/><Run Language="pt-br" Text="PF"/><Run Text=":"/></TextBlock>
         <TextBox Name="txtEmail" HorizontalAlignment="Left" Margin="10,148,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Grid.ColumnSpan="2"/>

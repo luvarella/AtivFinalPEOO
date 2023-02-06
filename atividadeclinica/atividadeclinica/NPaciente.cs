@@ -38,7 +38,6 @@ namespace atividadeclinica
                     obj.Idade = t.Idade;
                     obj.Estado = t.Estado;
                     obj.Cidade = t.Cidade;
-                    obj.IdMedico = t.IdMedico;
                 }
             Salvar();
         }
