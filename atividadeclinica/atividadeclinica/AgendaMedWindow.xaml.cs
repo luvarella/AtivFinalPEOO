@@ -22,11 +22,19 @@ namespace atividadeclinica
         public AgendaMedWindow()
         {
             InitializeComponent();
+            listMedicos.ItemsSource = NMedico.Listar();
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            if (listMedicos.SelectedItem != null)
+            {
+                Medico m = (Medico)listMedicos.SelectedItem;
+                listConsultas.ItemsSource = null;
+                listConsultas.ItemsSource = NConsulta.ListarMedico(m);
+            }
+            else
+                MessageBox.Show("É preciso selecionar um médico");
         }
     }
 }

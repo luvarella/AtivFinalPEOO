@@ -22,7 +22,6 @@ C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\ativida
 C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\PacienteWindow.g.cs
 C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\App.g.cs
 C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\atividadeclinica_MarkupCompile.cache
-C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\atividadeclinica_MarkupCompile.lref
 C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\AgendaMedWindow.baml
 C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\AgendaPacWindow.baml
 C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\ConsultaWindow.baml
@@ -38,3 +37,5 @@ C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\ativida
 C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\ref\atividadeclinica.dll
 C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\atividadeclinica.pdb
 C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\atividadeclinica.genruntimeconfig.cache
+C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\atividadeclinica.csproj.AssemblyReference.cache
+C:\Users\20211011110004\Source\Repos\luvarella\oficialatividadefinalpeoo\atividadeclinica\atividadeclinica\obj\Debug\net5.0-windows\atividadeclinica_MarkupCompile.lref

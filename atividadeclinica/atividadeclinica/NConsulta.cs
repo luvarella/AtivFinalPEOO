@@ -11,14 +11,14 @@ namespace atividadeclinica
     class NConsulta
     {
         private static List<Consulta> consultas = new List<Consulta>();
-        public static void Inserir(Consulta t)
+        public static void Inserir(Consulta c)
         {
             Abrir();
             int id = 0;
             foreach (Consulta obj in consultas)
                 if (obj.Id > id) id = obj.Id;
-            t.Id = id + 1;
-            consultas.Add(t);
+            c.Id = id + 1;
+            consultas.Add(c);
             Salvar();
         }
         public static void Atualizar(Consulta c)
@@ -43,7 +43,7 @@ namespace atividadeclinica
             if (x != null) consultas.Remove(x);
             Salvar();
         }
-        public static List<Consulta> Listar()
+        public static List<Consulta> ListarConsultas()
         {
             Abrir();
             return consultas;
@@ -77,7 +77,7 @@ namespace atividadeclinica
             c.IdPaciente = p.Id;
             Salvar();
         }
-        public static List<Consulta> Listar(Medico m)
+        public static List<Consulta> ListarMedico(Medico m)
         {
             Abrir();
             List<Consulta> listConsultas = new List<Consulta>();
@@ -90,7 +90,7 @@ namespace atividadeclinica
             }
             return listConsultas;
         }
-        public static List<Consulta> Listar(Paciente p)
+        public static List<Consulta> ListarPaciente(Paciente p)
         {
             Abrir();
             List<Consulta> listConsultas = new List<Consulta>();

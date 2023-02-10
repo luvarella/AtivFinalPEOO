@@ -72,5 +72,10 @@ namespace atividadeclinica
             xml.Serialize(f, pacientes);
             f.Close();
         }
+        public static void Agendar(Paciente p, Consulta c)
+        {
+            //p.IdConsulta = c.Id;
+            Atualizar(p);
+        }
     }
 }

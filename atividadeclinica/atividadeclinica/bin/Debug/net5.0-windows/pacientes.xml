@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPaciente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Paciente>
+    <Id>1</Id>
+    <Nome>joao vitor costa</Nome>
+    <Cpf>48473646150</Cpf>
+    <Email>jao@gmail.com</Email>
+    <Idade>18</Idade>
+    <Estado>RS</Estado>
+    <Cidade>Canoas</Cidade>
+  </Paciente>
+  <Paciente>
+    <Id>2</Id>
+    <Nome>rafael gomes</Nome>
+    <Cpf>35879</Cpf>
+    <Email>gomes@gmail.com</Email>
+    <Idade>12</Idade>
+    <Estado>RN</Estado>
+    <Cidade>Caicó</Cidade>
+  </Paciente>
+</ArrayOfPaciente>

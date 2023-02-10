@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfConsulta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Consulta>
+    <Id>1</Id>
+    <IdMedico>0</IdMedico>
+    <IdPaciente>0</IdPaciente>
+    <Data>fd</Data>
+    <Hora>fd</Hora>
+    <Local>fd</Local>
+    <Descricao>fd</Descricao>
+  </Consulta>
+  <Consulta>
+    <Id>2</Id>
+    <IdMedico>2</IdMedico>
+    <IdPaciente>2</IdPaciente>
+    <Data>123</Data>
+    <Hora>12</Hora>
+    <Local>23</Local>
+    <Descricao>213</Descricao>
+  </Consulta>
+</ArrayOfConsulta>

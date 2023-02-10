@@ -25,10 +25,8 @@
         <TextBox x:Name="txtHora" HorizontalAlignment="Left" Margin="74,91,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
         <TextBox x:Name="txtLocal" HorizontalAlignment="Left" Margin="169,91,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="78"/>
         <TextBlock HorizontalAlignment="Left" Margin="74,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Descrição"/><Run Text=":"/></TextBlock>
-        <TextBox x:Name="txtIdMedico_Copy" HorizontalAlignment="Left" Margin="74,52,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
-        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="263,91,0,0" VerticalAlignment="Top" Width="56" Height="18"/>
+        <TextBox x:Name="txtDescricao" HorizontalAlignment="Left" Margin="74,52,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"><Run Text="Selecion"/><Run Text="e"/><Run Text=" o paciente:"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" Grid.Row="1"><Run Text="Selecion"/><Run Text="e"/><Run Text=" o "/><Run Language="pt-br" Text="médico"/><Run Text=":"/></TextBlock>
-        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="324,91,0,0" VerticalAlignment="Top" Width="66" Height="18"/>
     </Grid>
 </Window>

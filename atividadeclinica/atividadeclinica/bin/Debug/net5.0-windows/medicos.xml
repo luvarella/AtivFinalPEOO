@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMedico xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Medico>
+    <Id>1</Id>
+    <Nome>luiza varella</Nome>
+    <Idade>18</Idade>
+    <Cpf>237248</Cpf>
+    <Email>luiza@gmail.com</Email>
+    <Especializacao>ginecologista</Especializacao>
+  </Medico>
+  <Medico>
+    <Id>2</Id>
+    <Nome>rafa</Nome>
+    <Idade>18</Idade>
+    <Cpf>486749</Cpf>
+    <Email>rafinha@gmail.com</Email>
+    <Especializacao>pediatra</Especializacao>
+  </Medico>
+</ArrayOfMedico>

@@ -22,11 +22,19 @@ namespace atividadeclinica
         public AgendaPacWindow()
         {
             InitializeComponent();
+            listPacientes.ItemsSource = NPaciente.Listar();
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            if (listPacientes.SelectedItem != null)
+            {
+                Paciente p = (Paciente)listPacientes.SelectedItem;
+                listConsultas.ItemsSource = null;
+                listConsultas.ItemsSource = NConsulta.ListarPaciente(p);
+            }
+            else
+                MessageBox.Show("É preciso selecionar um paciente");
         }
     }
 }
